@@ -39,7 +39,7 @@ class QuestionTests : XCTestCase {
     let expectation = expectationWithDescription("Mockingdrive")
 
     // Perform request (using Hyperdrive, you can use other networking libraries)
-    hyperdrive.enter("https://fuller.li/") { result in
+    hyperdrive.enter("https://polls.apiblueprint.org/questions") { result in
       switch result {
       case .Success(let representor):
         XCTAssertNotNil(representor.transitions["next"])
