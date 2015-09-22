@@ -10,6 +10,9 @@
 		2792568C1BB1B7D900E66B9E /* Mockingdrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 2792568B1BB1B7D900E66B9E /* Mockingdrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279256931BB1B7D900E66B9E /* Mockingdrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279256881BB1B7D900E66B9E /* Mockingdrive.framework */; settings = {ASSET_TAGS = (); }; };
 		279256981BB1B7D900E66B9E /* MockingdriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279256971BB1B7D900E66B9E /* MockingdriveTests.swift */; };
+		279256A31BB1BA6700E66B9E /* Mockingdrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279256A21BB1BA6700E66B9E /* Mockingdrive.swift */; settings = {ASSET_TAGS = (); }; };
+		2AA7768DE840831C5B3FB187 /* Pods_MockingdriveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40CCF1C3E33C277B45914C9 /* Pods_MockingdriveTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2FAB4F7F503394F348F09585 /* Pods_Mockingdrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C06960A604BAEC6D2C98D /* Pods_Mockingdrive.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041C06960A604BAEC6D2C98D /* Pods_Mockingdrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mockingdrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B911D0BFC957744BDEE531 /* Pods-MockingdriveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingdriveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockingdriveTests/Pods-MockingdriveTests.release.xcconfig"; sourceTree = "<group>"; };
 		279256881BB1B7D900E66B9E /* Mockingdrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mockingdrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2792568B1BB1B7D900E66B9E /* Mockingdrive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mockingdrive.h; sourceTree = "<group>"; };
 		2792568D1BB1B7D900E66B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279256921BB1B7D900E66B9E /* MockingdriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingdriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279256971BB1B7D900E66B9E /* MockingdriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingdriveTests.swift; sourceTree = "<group>"; };
 		279256991BB1B7D900E66B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279256A21BB1BA6700E66B9E /* Mockingdrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mockingdrive.swift; sourceTree = "<group>"; };
+		886C4476819C4D3D6B1491E0 /* Pods-Mockingdrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mockingdrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mockingdrive/Pods-Mockingdrive.release.xcconfig"; sourceTree = "<group>"; };
+		92BF842E8047D0259DE9546D /* Pods-Mockingdrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mockingdrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mockingdrive/Pods-Mockingdrive.debug.xcconfig"; sourceTree = "<group>"; };
+		A40CCF1C3E33C277B45914C9 /* Pods_MockingdriveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingdriveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA29A1D17DE386E81F1D8C71 /* Pods-MockingdriveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingdriveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockingdriveTests/Pods-MockingdriveTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAB4F7F503394F348F09585 /* Pods_Mockingdrive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279256931BB1B7D900E66B9E /* Mockingdrive.framework in Frameworks */,
+				2AA7768DE840831C5B3FB187 /* Pods_MockingdriveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				2792568A1BB1B7D900E66B9E /* Mockingdrive */,
 				279256961BB1B7D900E66B9E /* MockingdriveTests */,
 				279256891BB1B7D900E66B9E /* Products */,
+				E824ACB7A0DFAE8B6863B596 /* Pods */,
+				DBA1929F634D241BC4CD1A94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				2792568B1BB1B7D900E66B9E /* Mockingdrive.h */,
+				279256A21BB1BA6700E66B9E /* Mockingdrive.swift */,
 				2792568D1BB1B7D900E66B9E /* Info.plist */,
 			);
 			path = Mockingdrive;
@@ -84,6 +99,26 @@
 				279256991BB1B7D900E66B9E /* Info.plist */,
 			);
 			path = MockingdriveTests;
+			sourceTree = "<group>";
+		};
+		DBA1929F634D241BC4CD1A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041C06960A604BAEC6D2C98D /* Pods_Mockingdrive.framework */,
+				A40CCF1C3E33C277B45914C9 /* Pods_MockingdriveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E824ACB7A0DFAE8B6863B596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92BF842E8047D0259DE9546D /* Pods-Mockingdrive.debug.xcconfig */,
+				886C4476819C4D3D6B1491E0 /* Pods-Mockingdrive.release.xcconfig */,
+				BA29A1D17DE386E81F1D8C71 /* Pods-MockingdriveTests.debug.xcconfig */,
+				21B911D0BFC957744BDEE531 /* Pods-MockingdriveTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2792569C1BB1B7D900E66B9E /* Build configuration list for PBXNativeTarget "Mockingdrive" */;
 			buildPhases = (
+				474D081E4CBF9C408BF949C2 /* Check Pods Manifest.lock */,
 				279256831BB1B7D900E66B9E /* Sources */,
 				279256841BB1B7D900E66B9E /* Frameworks */,
 				279256851BB1B7D900E66B9E /* Headers */,
 				279256861BB1B7D900E66B9E /* Resources */,
+				82913D9911BB74141BEEA3FE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2792569F1BB1B7D900E66B9E /* Build configuration list for PBXNativeTarget "MockingdriveTests" */;
 			buildPhases = (
+				A45783261E6A95CCACC95C0E /* Check Pods Manifest.lock */,
 				2792568E1BB1B7D900E66B9E /* Sources */,
 				2792568F1BB1B7D900E66B9E /* Frameworks */,
 				279256901BB1B7D900E66B9E /* Resources */,
+				1D129A9774562769AEE24822 /* Embed Pods Frameworks */,
+				74911469B71F8444CB3D2494 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +182,7 @@
 		2792567F1BB1B7D900E66B9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Cocode;
 				TargetAttributes = {
@@ -188,11 +229,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D129A9774562769AEE24822 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockingdriveTests/Pods-MockingdriveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474D081E4CBF9C408BF949C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74911469B71F8444CB3D2494 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockingdriveTests/Pods-MockingdriveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82913D9911BB74141BEEA3FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mockingdrive/Pods-Mockingdrive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45783261E6A95CCACC95C0E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		279256831BB1B7D900E66B9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279256A31BB1BA6700E66B9E /* Mockingdrive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +421,9 @@
 		};
 		2792569D1BB1B7D900E66B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BF842E8047D0259DE9546D /* Pods-Mockingdrive.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -314,12 +436,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocode.Mockingdrive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2792569E1BB1B7D900E66B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886C4476819C4D3D6B1491E0 /* Pods-Mockingdrive.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -337,6 +462,7 @@
 		};
 		279256A01BB1B7D900E66B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA29A1D17DE386E81F1D8C71 /* Pods-MockingdriveTests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MockingdriveTests/Info.plist;
@@ -348,6 +474,7 @@
 		};
 		279256A11BB1B7D900E66B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B911D0BFC957744BDEE531 /* Pods-MockingdriveTests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MockingdriveTests/Info.plist;
@@ -376,6 +503,7 @@
 				2792569E1BB1B7D900E66B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2792569F1BB1B7D900E66B9E /* Build configuration list for PBXNativeTarget "MockingdriveTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +512,7 @@
 				279256A11BB1B7D900E66B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
