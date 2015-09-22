@@ -42,6 +42,7 @@ class QuestionTests : XCTestCase {
     hyperdrive.enter("https://polls.apiblueprint.org/questions") { result in
       switch result {
       case .Success(let representor):
+        // Assert we have a transition for using the "next" relation
         XCTAssertNotNil(representor.transitions["next"])
         expectation.fulfill()
       case .Failure:
