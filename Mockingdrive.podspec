@@ -8,9 +8,9 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'http://twitter.com/kylefuller'
   spec.source = { :git => 'https://github.com/kylef/Mockingdrive.git', :tag => spec.version }
   spec.source_files = 'Mockingdrive/*.{h,swift}'
+  spec.frameworks = 'XCTest'
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.9'
-  spec.watchos.deployment_target = '2.0'
   spec.requires_arc = true
   spec.dependency 'Representor'
   spec.dependency 'Mockingjay', '~> 1.0'

@@ -6,5 +6,6 @@ end
 
 target 'MockingdriveTests' do
   podspec
+  pod 'Hyperdrive'
 end
 

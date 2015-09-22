@@ -55,9 +55,15 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-MockingdriveTests/Mockingjay.framework'
   install_framework 'Pods-MockingdriveTests/Representor.framework'
   install_framework 'Pods-MockingdriveTests/URITemplate.framework'
+  install_framework 'Pods-MockingdriveTests/Hyperdrive.framework'
+  install_framework 'Pods-MockingdriveTests/Result.framework'
+  install_framework 'Pods-MockingdriveTests/WebLinking.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-MockingdriveTests/Mockingjay.framework'
   install_framework 'Pods-MockingdriveTests/Representor.framework'
   install_framework 'Pods-MockingdriveTests/URITemplate.framework'
+  install_framework 'Pods-MockingdriveTests/Hyperdrive.framework'
+  install_framework 'Pods-MockingdriveTests/Result.framework'
+  install_framework 'Pods-MockingdriveTests/WebLinking.framework'
 fi
